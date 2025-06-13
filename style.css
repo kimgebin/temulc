@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f3f3f3;
+}
+header {
+  background: #ffffff;
+  padding: 1em;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.logo {
+  height: 50px;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+  flex-wrap: wrap;
+  background: #fff;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1em;
+  padding: 1em;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.nama {
+  font-weight: bold;
+}
+.harga {
+  color: #00b300;
+}
+.verif {
+  color: green;
+}
+.booking-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5em;
+  width: 100%;
+  margin-top: 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
