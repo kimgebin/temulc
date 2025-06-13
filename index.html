@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TemuLC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="TemuLC Logo" class="logo"/>
+    <h1>TemuLC – Temukan LC Sesuai Pilihanmu</h1>
+  </header>
+  <div class="filter">
+    <select id="filterKota"><option value="">– Semua Kota –</option></select>
+    <select id="filterHarga"><option value="">– Harga Maksimal –</option></select>
+    <select id="filterLayanan"><option value="">– Layanan –</option></select>
+    <button onclick="terapkanFilter()">Terapkan</button>
+  </div>
+  <div id="daftarLC" class="grid"></div>
+  <script src="script.js"></script>
+</body>
+</html>
